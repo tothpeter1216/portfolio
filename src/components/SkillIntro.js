@@ -3,7 +3,7 @@ import Skills from "./Skills";
 
 const SkillIntro = ({ skillGroup, skills }) => {
   return (
-    <div className="card">
+    <div className="card skill-card">
       <h2>{skillGroup}</h2>
 
       {skills.map((skill) => {

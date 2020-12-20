@@ -47,10 +47,30 @@ code {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
   text-align: center;
-  background-color: rgb(255, 157, 29);
+
   margin: 45px;
   display: flex;
   flex-wrap: wrap;
+}
+
+.skill-card {
+  background-color: rgb(255, 157, 29);
+}
+
+.code-card {
+  /* background-color: rgb(176, 233, 250); */
+  background-color: #a6e22e;
+}
+
+.code-card h2 {
+  color: #f92672;
+}
+
+.code-card p {
+  color: #272822;
+}
+.code-card p:nth-of-type(2) {
+  color: #75715e;
 }
 
 .small-card {
