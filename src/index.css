@@ -1,13 +1,64 @@
+/* orange rgb(255, 157, 29); */
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+#idcard {
+  height: 650px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 0);
+}
+
+.profil-image {
+  width: 120px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.profil-image-bg {
+  background-color: rgb(255, 157, 29);
+  border-radius: 100%/0 0 30px 30px;
+  padding: 5px;
+  margin-bottom: 40px;
+}
+
+.card-content {
+  height: 410px;
+  width: 260px;
+  /* background-color: rgb(255, 157, 29); */
+  background-color: white;
+  margin-top: 190px;
+  margin: 190px auto 0;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: rgb(255, 157, 29);
+  margin: 45px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.small-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  border-radius: 10px;
+  width: 100px;
 }

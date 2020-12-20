@@ -1,23 +1,62 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/Header";
+import SkillIntro from "./components/SkillIntro";
+import ExampleCodes from "./components/ExampleCodes";
 
 function App() {
+  const reactSkills = [
+    {
+      skillName: "skill",
+      level: 3,
+    },
+    {
+      skillName: "other",
+      level: 2,
+    },
+    {
+      skillName: "another",
+      level: 3,
+    },
+  ];
+  const cppSkills = [
+    {
+      skillName: "cpp",
+      level: 3,
+    },
+    {
+      skillName: "other",
+      level: 2,
+    },
+    {
+      skillName: "another",
+      level: 3,
+    },
+  ];
+  const backendSkills = [
+    {
+      skillName: "cpp",
+      level: 3,
+    },
+    {
+      skillName: "other",
+      level: 2,
+    },
+    {
+      skillName: "another",
+      level: 3,
+    },
+  ];
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <SkillIntro skillGroup={"React Developer Skills"} skills={reactSkills} />
+      <SkillIntro skillGroup={"C++ Developer Skills"} skills={cppSkills} />
+      <SkillIntro
+        skillGroup={"Backend Developer Skills"}
+        skills={backendSkills}
+      />
+      <ExampleCodes />
     </div>
   );
 }
