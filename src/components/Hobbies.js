@@ -1,7 +1,6 @@
 import React from "react";
-import { hobbies } from "../data/hobbiesData";
 
-const Hobbies = () => {
+const Hobbies = ({ hobbies }) => {
   return (
     <div className="card hobby-card">
       {hobbies.map((hobby) => {

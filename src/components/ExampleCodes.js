@@ -1,17 +1,12 @@
 import React from "react";
-import { codes } from "../data/exmpleCodesData";
 import ExampleCode from "./ExampleCode";
 
-const ExampleCodes = () => {
+const ExampleCodes = ({ codes }) => {
   return (
     <div className="card code-card">
       {codes.map((code) => {
         return <ExampleCode code={code} />;
       })}
-      {/* <h2>{skillGroup}</h2> */}
-      {/* {skills.map((skill) => {
-        return <Skills skillName={skill.skillName} level={skill.level} />;
-      })} */}
     </div>
   );
 };
