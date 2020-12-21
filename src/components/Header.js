@@ -4,7 +4,7 @@ import CardContent from "./CardContent";
 
 const Header = () => {
   return (
-    <div>
+    <div className="header">
       <CardContent />
       <IdCard />
     </div>
