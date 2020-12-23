@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import SkillIntro from "./components/SkillIntro";
 import ExampleCodes from "./components/ExampleCodes";
 import Hobbies from "./components/Hobbies";
+import EducationSection from "./components/EducationSection";
 import { data } from "./data/dataHun";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           />
         );
       })}
+      <EducationSection educations={data.educations} />
       <h1>Saját munkák</h1>
       <ExampleCodes codes={data.codes} />
       <h1>Hobbik</h1>

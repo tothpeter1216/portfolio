@@ -36,6 +36,13 @@ export const data = {
       ],
     },
   ],
+  educations: [
+    {
+      name: "Grenn Fox Academy",
+      description: "Bootcamp",
+      link: "",
+    },
+  ],
   codes: [
     {
       name: "Portfólió",

@@ -24,8 +24,8 @@ h1 {
 }
 
 body {
-  background-image: url(https://i.pinimg.com/originals/a9/12/25/a9122539bc17f0b49c3664cf0cf5e43a.jpg);
-  background-color: #010101;
+  background-image: url(./images//bg.png);
+  background-color: #1b1b1b;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -80,7 +80,7 @@ body {
 .code-card {
   /* background-color: rgb(176, 233, 250); */
   /* background-color: #a6e22e; */
-  background-color: #0046bf;
+  background-color: #66d9ef;
 }
 
 .code-card h2 {
@@ -118,4 +118,7 @@ body {
   border-radius: 10px;
   width: 80%;
   display: block;
+}
+.education-section {
+  background-color: #66d9ef;
 }
