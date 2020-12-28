@@ -4,6 +4,7 @@ import SkillIntro from "./components/SkillIntro";
 import ExampleCodes from "./components/ExampleCodes";
 import Hobbies from "./components/Hobbies";
 import EducationSection from "./components/EducationSection";
+import Slider from "./components/Slider";
 import { data } from "./data/dataHun";
 
 function App() {
