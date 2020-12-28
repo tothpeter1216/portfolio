@@ -16,6 +16,8 @@
   transition: 0.5s;
   overflow: hidden;
   background-color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
 .btn-slider {
@@ -23,7 +25,8 @@
   transform: translate(-50%);
   width: 10%;
   height: 80%;
-  background: none;
+  background-color: rgba(90, 90, 90, 0.11);
+  border: none;
 }
 
 #goLeft {
