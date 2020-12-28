@@ -1,8 +1,13 @@
 import React, { useState } from "react";
 import "./Slider.css";
+import { data } from "../data/dataHun";
+import Education from "./Education";
 
 const Slider = () => {
   let sliderArr = [1, 2, 3, 4, 5];
+  sliderArr = data.educations.map((school, index) => {
+    return <Education school={school} />;
+  });
   const [x, setX] = useState(0);
 
   const goLeft = () => {
@@ -19,7 +24,7 @@ const Slider = () => {
         return (
           <div
             key={index}
-            className="slide"
+            className="slide card"
             style={{ transform: `translateX(${x}%)` }}
           >
             {item}
