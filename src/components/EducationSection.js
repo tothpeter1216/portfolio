@@ -2,12 +2,12 @@ import React from "react";
 import Education from "./Education";
 import Slider from "./Slider";
 
-const EducationSection = ({ educations }) => {
+const EducationSection = ({ schools }) => {
   return (
     <div>
       <h1>Képzések, iskolák</h1>
       <div className="education-section card">
-        <Slider />
+        <Slider schools={schools} />
 
         {/* {educations.map((school) => {
           return <Education school={school} />;

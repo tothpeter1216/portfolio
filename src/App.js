@@ -21,7 +21,7 @@ function App() {
     async function fetchData() {
       // You can await here
       const response = await axios.get("http://localhost:3001/api/all");
-      console.log(response.data.hobbie);
+      console.log(response.data.schools);
       setCodes(response.data.code);
       setSchools(response.data.schools);
       setSkillFields(response.data.skillField);
@@ -44,7 +44,7 @@ function App() {
           />
         );
       })}
-      <EducationSection educations={schools} />
+      <EducationSection schools={schools} />
       <h1>Saját munkák</h1>
       <ExampleCodes codes={codes} />
       <h1>Hobbik</h1>

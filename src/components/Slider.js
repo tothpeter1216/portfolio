@@ -3,9 +3,9 @@ import "./Slider.css";
 import { data } from "../data/dataHun";
 import Education from "./Education";
 
-const Slider = () => {
+const Slider = ({ schools }) => {
   let sliderArr = [1, 2, 3, 4, 5];
-  sliderArr = data.educations.map((school, index) => {
+  sliderArr = schools.map((school, index) => {
     return <Education school={school} />;
   });
   const [x, setX] = useState(0);
