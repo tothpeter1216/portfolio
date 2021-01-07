@@ -40,7 +40,17 @@ export const data = {
     {
       name: "Grenn Fox Academy",
       description: "Bootcamp",
-      link: "",
+      link: "www.link.hu",
+    },
+    {
+      name: "Piarists",
+      description: "Bootcamp",
+      link: "www.link.hu",
+    },
+    {
+      name: "Pázmány",
+      description: "Bootcamp",
+      link: "www.link.hu",
     },
   ],
   codes: [
