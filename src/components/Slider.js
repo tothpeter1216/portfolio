@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Slider.css";
-import { data } from "../data/dataHun";
 import Education from "./Education";
 
 const Slider = ({ schools }) => {

@@ -1,5 +1,4 @@
 import React from "react";
-// import card from "/transPortSide1.png";
 
 const idCard = () => {
   return (

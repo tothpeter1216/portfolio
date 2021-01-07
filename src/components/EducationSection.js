@@ -1,5 +1,4 @@
 import React from "react";
-import Education from "./Education";
 import Slider from "./Slider";
 
 const EducationSection = ({ schools }) => {

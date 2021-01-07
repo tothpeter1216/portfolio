@@ -4,8 +4,6 @@ import SkillIntro from "./components/SkillIntro";
 import ExampleCodes from "./components/ExampleCodes";
 import Hobbies from "./components/Hobbies";
 import EducationSection from "./components/EducationSection";
-import Slider from "./components/Slider";
-import { data } from "./data/dataHun";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
@@ -19,15 +17,12 @@ function App() {
     console.log("effect");
 
     async function fetchData() {
-      // You can await here
       const response = await axios.get("http://localhost:3001/api/all");
       console.log(response.data.schools);
       setCodes(response.data.code);
       setSchools(response.data.schools);
       setSkillFields(response.data.skillField);
       setHobbies(response.data.hobbie);
-
-      // ...
     }
     fetchData();
   }, []);
