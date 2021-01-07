@@ -21,7 +21,7 @@ function App() {
     async function fetchData() {
       // You can await here
       const response = await axios.get("http://localhost:3001/api/all");
-      console.log(response.data.code);
+      console.log(response.data.hobbie);
       setCodes(response.data.code);
       setSchools(response.data.schools);
       setSkillFields(response.data.skillField);
@@ -36,19 +36,19 @@ function App() {
     <div className="App">
       <Header />
       <h1>Skillek</h1>
-      {data.skills.map((skillGroup) => {
+      {skillFields.map((skillGroup) => {
         return (
           <SkillIntro
             skillGroup={skillGroup.skillField}
-            skills={skillGroup.skills}
+            skills={skillGroup.skill}
           />
         );
       })}
-      <EducationSection educations={data.educations} />
+      <EducationSection educations={schools} />
       <h1>Saját munkák</h1>
-      <ExampleCodes codes={data.codes} />
+      <ExampleCodes codes={codes} />
       <h1>Hobbik</h1>
-      <Hobbies hobbies={data.hobbies} />
+      <Hobbies hobbies={hobbies} />
     </div>
   );
 }
