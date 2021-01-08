@@ -14,11 +14,8 @@ function App() {
   const [hobbies, setHobbies] = useState([]);
 
   useEffect(() => {
-    console.log("effect");
-
     async function fetchData() {
       const response = await axios.get("http://localhost:3001/api/all");
-      console.log(response.data.schools);
       setCodes(response.data.code);
       setSchools(response.data.schools);
       setSkillFields(response.data.skillField);
@@ -34,6 +31,7 @@ function App() {
       {skillFields.map((skillGroup) => {
         return (
           <SkillIntro
+            key={skillGroup.id}
             skillGroup={skillGroup.skillField}
             skills={skillGroup.skill}
           />

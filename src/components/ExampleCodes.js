@@ -5,7 +5,7 @@ const ExampleCodes = ({ codes }) => {
   return (
     <div className="card code-card">
       {codes.map((code) => {
-        return <ExampleCode code={code} />;
+        return <ExampleCode key={code.id} code={code} />;
       })}
     </div>
   );

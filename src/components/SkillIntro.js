@@ -7,7 +7,13 @@ const SkillIntro = ({ skillGroup, skills }) => {
       <h2>{skillGroup}</h2>
 
       {skills.map((skill) => {
-        return <Skills skillName={skill.skillName} level={skill.level} />;
+        return (
+          <Skills
+            key={skill._id}
+            skillName={skill.skillName}
+            level={skill.level}
+          />
+        );
       })}
     </div>
   );
