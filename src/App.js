@@ -5,7 +5,7 @@ import ExampleCodes from "./components/ExampleCodes";
 import Hobbies from "./components/Hobbies";
 import EducationSection from "./components/EducationSection";
 import React, { useState, useEffect } from "react";
-import axios from "axios";
+import { getAllData } from "./services/allData";
 
 function App() {
   const [skillFields, setSkillFields] = useState([]);
@@ -15,7 +15,7 @@ function App() {
 
   useEffect(() => {
     async function fetchData() {
-      const response = await axios.get("http://localhost:3001/api/all");
+      const response = await getAllData();
       setCodes(response.data.code);
       setSchools(response.data.schools);
       setSkillFields(response.data.skillField);
