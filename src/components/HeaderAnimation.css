@@ -1,0 +1,164 @@
+.headerAnimation {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-house {
+  width: 100%;
+}
+
+.bg1 {
+  position: absolute;
+  animation-name: light;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+
+.bg2 {
+  position: absolute;
+  animation-name: light;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
+}
+
+.bg3 {
+  position: absolute;
+  animation-name: light;
+  animation-delay: 15s;
+  animation-fill-mode: forwards;
+  /* background-color: lightgoldenrodyellow; */
+}
+
+.bg4 {
+  z-index: 100;
+  /* background-color: lightpink; */
+  /* border: lawngreen 1px solid; */
+}
+
+@keyframes light {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: initial;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+.me {
+  height: 50%;
+  position: absolute;
+  top: 48%;
+  left: 4%;
+  z-index: -5;
+  animation-name: walker;
+  animation-duration: 10s;
+  animation-delay: 5s;
+  animation-timing-function: linear;
+}
+
+@keyframes walker {
+  0% {
+    top: 47%;
+  }
+  3% {
+    top: 46%;
+  }
+  6% {
+    top: 47%;
+    transform: rotate(2deg);
+  }
+  9% {
+    top: 46%;
+    transform: rotate(0deg);
+  }
+  12% {
+    top: 47%;
+    transform: rotate(2deg);
+  }
+  15% {
+    top: 46%;
+    transform: rotate(0deg);
+  }
+  18% {
+    top: 47%;
+    transform: rotate(2deg);
+  }
+  21% {
+    top: 46%;
+    transform: rotate(5deg);
+  }
+  24% {
+    top: 47%;
+    transform: rotate(2deg);
+  }
+  27% {
+    top: 46%;
+    transform: rotate(0deg);
+  }
+  30% {
+    top: 47%;
+    transform: rotate(2deg);
+  }
+  33% {
+    top: 46%;
+    transform: rotate(0deg);
+  }
+  36% {
+    top: 47%;
+    transform: rotate(2deg);
+  }
+  39% {
+    top: 46%;
+    transform: rotate(0deg);
+  }
+  42% {
+    top: 47%;
+    transform: rotate(2deg);
+  }
+  45% {
+    top: 46%;
+    transform: rotate(0deg);
+  }
+  48% {
+    top: 47%;
+    transform: rotate(2deg);
+  }
+  51% {
+    top: 46%;
+    transform: rotate(0deg);
+  }
+  54% {
+    top: 47%;
+    transform: rotate(2deg);
+  }
+  57% {
+    top: 46%;
+    transform: rotate(0deg);
+  }
+  60% {
+    top: 47%;
+    transform: rotate(2deg);
+  }
+  63% {
+    top: 46%;
+    transform: rotate(0deg);
+  }
+  66% {
+    top: 47%;
+    transform: rotate(2deg);
+  }
+  69% {
+    top: 46%;
+    transform: rotate(0deg);
+  }
+
+  100% {
+    left: 80%;
+  }
+}
