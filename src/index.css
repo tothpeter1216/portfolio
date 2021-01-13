@@ -22,16 +22,24 @@ h2 {
   color: #fff;
 }
 
-h1 {
-  color: #fff;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffffbf;
   font-size: 3rem;
-  margin-top: 150px;
+  font-family: "Cormorant Garamond", serif;
+  font-variant: small-caps;
+  text-align: center;
+  /* margin-top: 150px; */
 }
 
 body {
   /* background-image: url(./images//bg.png); */
   /* background-color: #1b1b1b; */
-  background-color: rgb(53, 53, 53);
+  background-color: #0f0808;
   background-repeat: no-repeat;
   background-size: contain;
 }

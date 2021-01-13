@@ -7,6 +7,8 @@ import EducationSection from "./components/EducationSection";
 import React, { useState, useEffect } from "react";
 import { getAllData } from "./services/allData";
 import HeaderAnimation from "./components/HeaderAnimation";
+import Sentence from "./components/Sentence";
+import Infos from "./components/Infos";
 
 function App() {
   const [skillFields, setSkillFields] = useState([]);
@@ -28,7 +30,8 @@ function App() {
   return (
     <div className="App">
       <HeaderAnimation />
-      {/* <Header /> */}
+      <Sentence />
+      <Infos />
       <h1>Skillek</h1>
       {skillFields.map((skillGroup) => {
         return (

@@ -39,7 +39,7 @@
 .bg1 {
   position: absolute;
   animation-name: light;
-  animation-delay: 4s;
+  animation-delay: 2s;
   animation-fill-mode: forwards;
 }
 
@@ -53,7 +53,7 @@
 .bg3 {
   position: absolute;
   animation-name: light;
-  animation-delay: 15s;
+  animation-delay: 12.5s;
   animation-fill-mode: forwards;
 }
 
@@ -81,7 +81,7 @@
   z-index: -5;
   animation-name: walker;
   animation-duration: 10s;
-  animation-delay: 5s;
+  animation-delay: 4s;
   animation-timing-function: linear;
 }
 
@@ -182,6 +182,6 @@
   }
 
   100% {
-    left: 80%;
+    left: 70%;
   }
 }

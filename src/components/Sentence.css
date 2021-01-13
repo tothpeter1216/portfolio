@@ -1,0 +1,37 @@
+.sentence-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sentence-word {
+  font-family: "Rock Salt", cursive;
+  font-size: 2rem;
+  visibility: hidden;
+}
+
+.dream {
+  color: #b4f0a7;
+  animation-name: light-word;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+.plan {
+  color: #ffffbf;
+  animation-name: light-word;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
+}
+
+.create {
+  color: #a9d1f7;
+  animation-name: light-word;
+  animation-delay: 12.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes light-word {
+  100% {
+    visibility: visible;
+  }
+}
