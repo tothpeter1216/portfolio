@@ -4,7 +4,7 @@ import "./SkillSection.css";
 
 const SkillSection = ({ skillFields }) => {
   return (
-    <div id="skill-section">
+    <div id="skill-section" className="section">
       <h1>Skills</h1>
       {skillFields.map((skillGroup) => {
         return (

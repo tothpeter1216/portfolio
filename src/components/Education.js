@@ -2,10 +2,14 @@ import React from "react";
 
 const Education = ({ school }) => {
   return (
-    <div>
-      <h6>{school.name}</h6>
-      <p>{school.description}</p>
-      <p>{school.link}</p>
+    <div className="school-content">
+      <h6 className="school-name">{school.name}</h6>
+      <p className="school-description">{school.description}</p>
+      <p>
+        <a href={school.link} className="school-link">
+          {school.link}
+        </a>
+      </p>
     </div>
   );
 };

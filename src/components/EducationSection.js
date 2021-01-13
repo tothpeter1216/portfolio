@@ -1,13 +1,23 @@
 import React from "react";
 import Slider from "./Slider";
+import "./EducationSection.css";
+import Education from "./Education";
 
 const EducationSection = ({ schools }) => {
+  let sliderArr = [];
+  sliderArr = schools.map((school, index) => {
+    return <Education key={school.id} school={school} />;
+  });
+
   return (
-    <div>
+    <div id="education-section" className="section">
       <h1>Képzések, iskolák</h1>
-      <div className="education-section card">
-        <Slider schools={schools} />
-      </div>
+
+      <Slider
+        schools={schools}
+        pagesArray={sliderArr}
+        sliderClassName={"educationSlider"}
+      />
     </div>
   );
 };

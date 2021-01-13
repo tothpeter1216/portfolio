@@ -1,0 +1,26 @@
+#education-section {
+  margin: 150px 45px 0 45px;
+}
+
+.educationSlider {
+  background-color: #252525;
+}
+
+.school-name {
+  font-size: 3rem;
+  color: #ffffbf;
+}
+
+.school-description {
+  margin: 30px 0;
+  color: #b4f0a7;
+  padding: 10px;
+}
+.school-content {
+  width: 80%;
+  text-align: center;
+}
+
+.school-link {
+  color: #a9d1f7;
+}
