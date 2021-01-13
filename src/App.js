@@ -9,6 +9,7 @@ import { getAllData } from "./services/allData";
 import HeaderAnimation from "./components/HeaderAnimation";
 import Sentence from "./components/Sentence";
 import Infos from "./components/Infos";
+import SkillSection from "./components/SkillSection";
 
 function App() {
   const [skillFields, setSkillFields] = useState([]);
@@ -32,16 +33,7 @@ function App() {
       <HeaderAnimation />
       <Sentence />
       <Infos />
-      <h1>Skillek</h1>
-      {skillFields.map((skillGroup) => {
-        return (
-          <SkillIntro
-            key={skillGroup.id}
-            skillGroup={skillGroup.skillField}
-            skills={skillGroup.skill}
-          />
-        );
-      })}
+      <SkillSection skillFields={skillFields} />
       <EducationSection schools={schools} />
       <h1>Saját munkák</h1>
       <ExampleCodes codes={codes} />

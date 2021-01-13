@@ -1,0 +1,22 @@
+#skill-section {
+  margin-top: 150px;
+}
+h4 {
+  color: #a9d1f7;
+  width: 100%;
+  font-size: 2rem;
+}
+
+.skill-card {
+  background-color: #252525;
+}
+
+.small-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  background-color: #ffffbf;
+  margin: 10px;
+  border-radius: 10px;
+  width: 100px;
+}
