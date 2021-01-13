@@ -1,0 +1,22 @@
+.infos {
+  color: #b4f0a7;
+  /* justify-content: space-around; */
+  /* display: block; */
+  margin-top: 60px;
+  text-align: center;
+}
+
+.infos h1 {
+  color: #ffffbf;
+  font-size: 6rem;
+}
+
+.contact {
+  background-color: #252525;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+td {
+  padding: 10px;
+}

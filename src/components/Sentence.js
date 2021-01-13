@@ -1,7 +1,7 @@
 import React from "react";
 import "./Sentence.css";
 
-const Infos = () => {
+const Sentence = () => {
   return (
     <div className="sentence-section">
       <div className="sentence-words">
@@ -17,4 +17,4 @@ const Infos = () => {
   );
 };
 
-export default Infos;
+export default Sentence;

@@ -1,8 +1,6 @@
 .sentence-section {
   display: flex;
   justify-content: space-around;
-
-  margin-bottom: 500px;
 }
 
 .sentence-word {
