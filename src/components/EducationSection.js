@@ -13,7 +13,11 @@ const EducationSection = ({ schools }) => {
     <div id="education-section" className="section">
       <h1>Képzések, iskolák</h1>
 
-      <Slider schools={schools} pagesArray={sliderArr} />
+      <Slider
+        schools={schools}
+        pagesArray={sliderArr}
+        sliderClassName={"educationSlider"}
+      />
     </div>
   );
 };

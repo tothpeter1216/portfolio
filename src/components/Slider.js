@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import "./Slider.css";
-import Education from "./Education";
 
-const Slider = ({ pagesArray }) => {
+const Slider = ({ pagesArray, sliderClassName }) => {
   const [x, setX] = useState(0);
 
   const goLeft = () => {
@@ -19,7 +18,7 @@ const Slider = ({ pagesArray }) => {
         return (
           <div
             key={index}
-            className="slide card"
+            className={"slide card " + sliderClassName}
             style={{ transform: `translateX(${x}%)` }}
           >
             {item}
