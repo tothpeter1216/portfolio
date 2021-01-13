@@ -31,7 +31,7 @@ h1 {
 body {
   /* background-image: url(./images//bg.png); */
   /* background-color: #1b1b1b; */
-  background-color: bisque;
+  background-color: rgb(53, 53, 53);
   background-repeat: no-repeat;
   background-size: contain;
 }
