@@ -12,8 +12,6 @@
 
 .bg1 {
   position: absolute;
-  /* top: 0;
-  left: 0; */
   animation-name: light;
   animation-delay: 4s;
   animation-fill-mode: forwards;
@@ -21,8 +19,6 @@
 
 .bg2 {
   position: absolute;
-  /* top: 0;
-  left: 0; */
   animation-name: light;
   animation-delay: 8s;
   animation-fill-mode: forwards;
