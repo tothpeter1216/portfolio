@@ -5,3 +5,16 @@
 .educationSlider {
   background-color: #b4f0a7;
 }
+
+.school-name {
+  font-size: 3rem;
+  color: #252525;
+}
+
+.school-description {
+  margin: 30px 0;
+}
+.school-content {
+  width: 80%;
+  text-align: center;
+}
