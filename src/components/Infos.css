@@ -11,6 +11,10 @@
   font-size: 6rem;
 }
 
+.infos h3 {
+  color: #b4f0a7;
+}
+
 .contact {
   background-color: #252525;
   text-align: left;
