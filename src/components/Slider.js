@@ -26,10 +26,10 @@ const Slider = ({ pagesArray, sliderClassName }) => {
         );
       })}
       <button id="goLeft" className="btn-slider" onClick={goLeft}>
-        left
+        <img src={"./left.png"} alt="left" className="sign" />
       </button>
       <button id="goRight" className="btn-slider" onClick={goRight}>
-        right
+        <img src={"./right.png"} alt="right" className="sign" />
       </button>
     </div>
   );

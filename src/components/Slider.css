@@ -25,7 +25,8 @@
   transform: translate(-50%);
   width: 10%;
   height: 100%;
-  background-color: rgba(39, 39, 39, 0.418);
+  /* background-color: rgba(39, 39, 39, 0.418); */
+  background-color: #b4f0a7d3;
   border: none;
 }
 
@@ -35,4 +36,8 @@
 
 #goRight {
   right: -5%;
+}
+
+.sign {
+  width: 70%;
 }
