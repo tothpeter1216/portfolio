@@ -11,7 +11,7 @@ const EducationSection = ({ schools }) => {
 
   return (
     <div id="education-section" className="section">
-      <h1>Képzések, iskolák</h1>
+      <h1>Education</h1>
 
       <Slider
         schools={schools}
