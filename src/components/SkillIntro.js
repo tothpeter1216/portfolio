@@ -4,7 +4,7 @@ import Skills from "./Skills";
 const SkillIntro = ({ skillGroup, skills }) => {
   return (
     <div className="card skill-card">
-      <h2>{skillGroup}</h2>
+      <h4>{skillGroup}</h4>
 
       {skills.map((skill) => {
         return (
