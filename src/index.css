@@ -58,10 +58,6 @@ body {
   color: #75715e;
 }
 
-.hobby-card {
-  background-color: #66d9ef;
-}
-
 .port-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 10px;
@@ -75,4 +71,14 @@ body {
 
 .section {
   margin-top: 150px;
+}
+
+.small-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  background-color: #ffffbf;
+  margin: 10px;
+  border-radius: 10px;
+  width: 100px;
 }
