@@ -12,12 +12,7 @@ const CodeSection = ({ codes }) => {
     <div id="code-section">
       <h1>My Codes</h1>
 
-      <Slider
-        // schools={schools}
-        pagesArray={sliderArr}
-        sliderClassName={"educationSlider"}
-      />
-      {/* <ExampleCodes codes={codes} /> */}
+      <Slider pagesArray={sliderArr} sliderClassName={"code-slider"} />
     </div>
   );
 };

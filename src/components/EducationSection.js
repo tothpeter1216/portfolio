@@ -16,7 +16,7 @@ const EducationSection = ({ schools }) => {
       <Slider
         schools={schools}
         pagesArray={sliderArr}
-        sliderClassName={"educationSlider"}
+        sliderClassName={"education-slider"}
       />
     </div>
   );

@@ -3,10 +3,10 @@ import React from "react";
 const ExampleCode = ({ code }) => {
   const { name, description, technologies, gitHub, photo, website } = code;
   return (
-    <div className="card port-card">
-      <h2>{name}</h2>
-      <p>{description}</p>
-      <p>
+    <div className="code-content">
+      <h2 className="code-name">{name}</h2>
+      <p className="code-description">{description}</p>
+      <p className="technologies">
         {technologies.map((tech) => {
           return " * " + tech + " * ";
         })}

@@ -18,7 +18,7 @@ const Slider = ({ pagesArray, sliderClassName }) => {
         return (
           <div
             key={index}
-            className={"slide card " + sliderClassName}
+            className={"slide  " + sliderClassName}
             style={{ transform: `translateX(${x}%)` }}
           >
             {item}

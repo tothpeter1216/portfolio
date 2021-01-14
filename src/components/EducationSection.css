@@ -2,7 +2,17 @@
   margin: 150px 45px 0 45px;
 }
 
-.educationSlider {
+#education-section .slider .btn-slider {
+  background-color: #b4f0a7d3;
+}
+
+#education-section .slider {
+  height: fit-content;
+  min-height: 300px;
+  background-color: #252525;
+}
+
+.education-slider {
   background-color: #252525;
 }
 
@@ -19,8 +29,13 @@
 .school-content {
   width: 80%;
   text-align: center;
+  padding: 20px;
 }
 
-.school-link {
+a {
   color: #a9d1f7;
+}
+
+.code-name {
+  color: #b4f0a7;
 }
