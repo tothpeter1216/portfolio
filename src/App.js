@@ -7,6 +7,7 @@ import Infos from "./components/Infos";
 import SkillSection from "./components/SkillSection";
 import CodeSection from "./components/CodeSection";
 import HobbySection from "./components/HobbySection";
+import Footer from "./components/Footer";
 
 function App() {
   const [skillFields, setSkillFields] = useState([]);
@@ -34,6 +35,7 @@ function App() {
       <EducationSection schools={schools} />
       <CodeSection codes={codes} />
       <HobbySection hobbies={hobbies} />
+      <Footer />
     </div>
   );
 }
