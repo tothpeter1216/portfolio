@@ -18,48 +18,43 @@
   display: flex;
 }
 
-.ls1 {
+.ls1,
+.ls2,
+.ls3 {
   height: 100%;
   width: 33%;
+}
+.ls1 {
   background-color: #b4f0a7;
 }
 
 .ls2 {
-  height: 100%;
-  width: 33%;
   background-color: #ffffbf;
 }
 
 .ls3 {
-  height: 100%;
-  width: 33%;
   background-color: #a9d1f7;
 }
 
-.bg1 {
+.bg1,
+.bg2,
+.bg3 {
   position: absolute;
+}
+
+.bg1 {
   z-index: -1;
-  animation-name: light;
-  animation-delay: 1s;
-  animation-fill-mode: forwards;
+  animation: light 1s forwards;
 }
 
 .bg2 {
-  position: absolute;
   z-index: -2;
-
-  animation-name: light;
-  animation-delay: 4.5s;
-  animation-fill-mode: forwards;
+  animation: light 4.5s forwards;
 }
 
 .bg3 {
-  position: absolute;
   z-index: -3;
-
-  animation-name: light;
-  animation-delay: 8s;
-  animation-fill-mode: forwards;
+  animation: light 8s forwards;
 }
 
 .bg4 {
