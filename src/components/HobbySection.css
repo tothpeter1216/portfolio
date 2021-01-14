@@ -1,8 +1,12 @@
 #hobby-section .small-card {
-  background-color: #252525;
-  color: #ffffbf;
+  background-color: #a9d1f7;
+  color: #252525;
+}
+#hobby-section .small-card:nth-child(odd) {
+  background-color: #b4f0a7;
 }
 
 .hobby-card {
-  background-color: #a9d1f7;
+  /* background-color: #a9d1f7; */
+  background-color: #252525;
 }
