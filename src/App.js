@@ -1,4 +1,3 @@
-import Hobbies from "./components/Hobbies";
 import EducationSection from "./components/EducationSection";
 import React, { useState, useEffect } from "react";
 import { getAllData } from "./services/allData";
@@ -7,6 +6,7 @@ import Sentence from "./components/Sentence";
 import Infos from "./components/Infos";
 import SkillSection from "./components/SkillSection";
 import CodeSection from "./components/CodeSection";
+import HobbySection from "./components/HobbySection";
 
 function App() {
   const [skillFields, setSkillFields] = useState([]);
@@ -33,9 +33,7 @@ function App() {
       <SkillSection skillFields={skillFields} />
       <EducationSection schools={schools} />
       <CodeSection codes={codes} />
-
-      <h1>Hobbik</h1>
-      <Hobbies hobbies={hobbies} />
+      <HobbySection hobbies={hobbies} />
     </div>
   );
 }
