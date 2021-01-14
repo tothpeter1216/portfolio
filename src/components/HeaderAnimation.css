@@ -38,6 +38,7 @@
 
 .bg1 {
   position: absolute;
+  z-index: -1;
   animation-name: light;
   animation-delay: 2s;
   animation-fill-mode: forwards;
@@ -45,6 +46,8 @@
 
 .bg2 {
   position: absolute;
+  z-index: -2;
+
   animation-name: light;
   animation-delay: 8s;
   animation-fill-mode: forwards;
@@ -52,13 +55,16 @@
 
 .bg3 {
   position: absolute;
+  z-index: -3;
+
   animation-name: light;
   animation-delay: 12.5s;
   animation-fill-mode: forwards;
 }
 
 .bg4 {
-  z-index: 100;
+  position: relative;
+  z-index: -4;
 }
 
 @keyframes light {
