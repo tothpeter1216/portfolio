@@ -12,21 +12,21 @@
 .dream {
   color: #b4f0a7;
   animation-name: light-word;
-  animation-delay: 2s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
 }
 
 .plan {
   color: #ffffbf;
   animation-name: light-word;
-  animation-delay: 8s;
+  animation-delay: 4.5s;
   animation-fill-mode: forwards;
 }
 
 .create {
   color: #a9d1f7;
   animation-name: light-word;
-  animation-delay: 12.5s;
+  animation-delay: 8s;
   animation-fill-mode: forwards;
 }
 
