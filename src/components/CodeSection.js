@@ -9,7 +9,7 @@ const CodeSection = ({ codes }) => {
     return <ExampleCode key={code.id} code={code} />;
   });
   return (
-    <div id="code-section">
+    <div id="code-section" className="section">
       <h1>My Codes</h1>
 
       <Slider pagesArray={sliderArr} sliderClassName={"code-slider"} />
