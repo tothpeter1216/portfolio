@@ -11,10 +11,8 @@ const ExampleCode = ({ code }) => {
           return " * " + tech + " * ";
         })}
       </p>
-      <p>{website && <a href={website}>weboldal</a>}</p>
-      <p>
-        <a href={gitHub}>Codes on gitHub</a>
-      </p>
+      <p>{website && <a href={website}>website</a>}</p>
+      <p>{gitHub && <a href={gitHub}>Codes on gitHub</a>}</p>
     </div>
   );
 };

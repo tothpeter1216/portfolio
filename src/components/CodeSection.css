@@ -6,6 +6,7 @@
 #code-section .slider {
   height: fit-content;
   background-color: #252525;
+  padding: 0 10px;
 }
 
 #code-section .slider .btn-slider {
