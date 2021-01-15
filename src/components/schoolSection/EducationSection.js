@@ -5,7 +5,7 @@ import Education from "./Education";
 
 const EducationSection = ({ schools }) => {
   let sliderArr = [];
-  sliderArr = schools.map((school, index) => {
+  sliderArr = schools.map((school) => {
     return <Education key={school.id} school={school} />;
   });
 

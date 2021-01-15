@@ -8,7 +8,6 @@ const Slider = ({ pagesArray, sliderClassName }) => {
     x === 0 ? setX(-100 * (pagesArray.length - 1)) : setX(x + 100);
   };
   const goRight = () => {
-    // setX(x - 100);
     x === -100 * (pagesArray.length - 1) ? setX(0) : setX(x - 100);
   };
 
