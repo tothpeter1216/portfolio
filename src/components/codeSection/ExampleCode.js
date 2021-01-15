@@ -1,7 +1,7 @@
 import React from "react";
 
 const ExampleCode = ({ code }) => {
-  const { name, description, technologies, gitHub, photo, website } = code;
+  const { name, description, technologies, gitHub, website } = code;
   return (
     <div className="code-content">
       <h2 className="code-name">{name}</h2>
