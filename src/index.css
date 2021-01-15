@@ -27,13 +27,12 @@ body {
 .card-content {
   height: 410px;
   width: 260px;
-  /* background-color: rgb(255, 157, 29); */
   background-color: white;
   margin-top: 190px;
   margin: 190px auto 0;
 }
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
   margin: 45px;
@@ -44,26 +43,8 @@ body {
   border-radius: 4px;
 }
 
-.code-card {
-  /* background-color: rgb(176, 233, 250); */
-  /* background-color: #a6e22e; */
-  background-color: #66d9ef;
-}
-
-.code-card h2 {
-  color: #f92672;
-  /* color: #fff; */
-}
-
-.code-card p {
-  color: #272822;
-}
-.code-card p:nth-of-type(2) {
-  color: #75715e;
-}
-
 .port-card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 10px;
   text-align: center;
   background-color: rgb(255, 255, 255);
@@ -85,8 +66,4 @@ body {
   margin: 10px;
   border-radius: 10px;
   width: 100px;
-}
-
-.section {
-  margin-top: 150px;
 }
