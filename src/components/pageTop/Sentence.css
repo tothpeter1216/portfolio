@@ -1,4 +1,5 @@
 .sentence-section {
+  width: 100%;
   display: flex;
   justify-content: space-around;
 }
@@ -7,6 +8,15 @@
   font-family: "Rock Salt", cursive;
   font-size: 2rem;
   visibility: hidden;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .sentence-word {
+    font-size: 1.5rem;
+  }
 }
 
 .dream {
