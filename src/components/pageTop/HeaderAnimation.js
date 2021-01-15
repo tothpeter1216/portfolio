@@ -10,11 +10,11 @@ const HeaderAnimation = () => {
         <div className="light-square ls3"></div>
       </div>
 
-      <img src={"./bg1.png"} alt="house" className="bg-house bg1" />
-      <img src={"./bg2.png"} alt="house" className="bg-house bg2" />
-      <img src={"./bg3.png"} alt="house" className="bg-house bg3" />
-      <img src={"./bg4.png"} alt="house" className="bg-house bg4" />
-      <img src={"./me.png"} alt="" className="me" />
+      <img src={"./image/bg1.png"} alt="house" className="bg-house bg1" />
+      <img src={"./image/bg2.png"} alt="house" className="bg-house bg2" />
+      <img src={"./image/bg3.png"} alt="house" className="bg-house bg3" />
+      <img src={"./image/bg4.png"} alt="house" className="bg-house bg4" />
+      <img src={"./image/me.png"} alt="" className="me" />
     </div>
   );
 };

@@ -6,20 +6,20 @@ const Skills = ({ skillName, level }) => {
 
   switch (level) {
     case 1:
-      pngSrc = "/meter_red_s.png";
+      pngSrc = "/image/meter_red_s.png";
       alt = "level_1";
       break;
     case 2:
-      pngSrc = "/meter_yellow_s.png";
+      pngSrc = "/image/meter_yellow_s.png";
       alt = "level_2";
       break;
     case 3:
-      pngSrc = "/meter_green_s.png";
+      pngSrc = "/image/meter_green_s.png";
       alt = "level_3";
       break;
 
     default:
-      pngSrc = "/meter_yellow_s.png";
+      pngSrc = "/image/meter_yellow_s.png";
       alt = "level_2";
       break;
   }
