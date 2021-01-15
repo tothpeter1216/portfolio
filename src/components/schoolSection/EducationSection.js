@@ -1,5 +1,5 @@
 import React from "react";
-import Slider from "./Slider";
+import Slider from "../tools/Slider";
 import "./EducationSection.css";
 import Education from "./Education";
 
