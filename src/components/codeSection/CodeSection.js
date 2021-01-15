@@ -1,6 +1,6 @@
 import React from "react";
 import ExampleCode from "./ExampleCode";
-import Slider from "./Slider";
+import Slider from "../tools/Slider";
 import "./CodeSection.css";
 
 const CodeSection = ({ codes }) => {

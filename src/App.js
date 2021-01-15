@@ -1,13 +1,13 @@
-import EducationSection from "./components/EducationSection";
+import EducationSection from "./components/schoolSection/EducationSection";
 import React, { useState, useEffect } from "react";
 import { getAllData } from "./services/allData";
-import HeaderAnimation from "./components/HeaderAnimation";
-import Sentence from "./components/Sentence";
-import Infos from "./components/Infos";
-import SkillSection from "./components/SkillSection";
-import CodeSection from "./components/CodeSection";
-import HobbySection from "./components/HobbySection";
-import Footer from "./components/Footer";
+import HeaderAnimation from "./components/pageTop/HeaderAnimation";
+import Sentence from "./components/pageTop/Sentence";
+import Infos from "./components/pageTop/Infos";
+import SkillSection from "./components/skillSection/SkillSection";
+import CodeSection from "./components/codeSection/CodeSection";
+import HobbySection from "./components/hobbySection/HobbySection";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const [skillFields, setSkillFields] = useState([]);
