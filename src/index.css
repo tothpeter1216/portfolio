@@ -21,7 +21,8 @@ h1 {
 }
 
 body {
-  background-color: #0f0808;
+  /* background-color: #0f0808; */
+  background-color: #0f0f0f;
 }
 
 .card-content {

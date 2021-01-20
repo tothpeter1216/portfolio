@@ -6,16 +6,16 @@
 
 .sentence-word {
   font-family: "Rock Salt", cursive;
-  font-size: 2rem;
+  font-size: 1.5rem;
   visibility: hidden;
   margin-left: 0;
   margin-right: 0;
   padding: 0;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
   .sentence-word {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 

@@ -16,6 +16,14 @@
   height: 90%;
   z-index: -10;
   display: flex;
+  visibility: hidden;
+  animation: late 0.8s forwards;
+}
+
+@keyframes late {
+  100% {
+    visibility: visible;
+  }
 }
 
 .ls1,
