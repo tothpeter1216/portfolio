@@ -2,6 +2,7 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
+  margin-top: -25px;
 }
 
 .sentence-word {
@@ -11,6 +12,7 @@
   margin-left: 0;
   margin-right: 0;
   padding: 0;
+  letter-spacing: 0.5em;
 }
 
 @media only screen and (min-width: 600px) {
@@ -24,6 +26,8 @@
   animation-name: light-word;
   animation-delay: 1s;
   animation-fill-mode: forwards;
+
+  /* margin-top: -10px; */
 }
 
 .plan {
@@ -31,6 +35,8 @@
   animation-name: light-word;
   animation-delay: 4.5s;
   animation-fill-mode: forwards;
+
+  /* margin-top: -10px; */
 }
 
 .create {
@@ -38,6 +44,8 @@
   animation-name: light-word;
   animation-delay: 8s;
   animation-fill-mode: forwards;
+
+  /* margin-top: -10px; */
 }
 
 @keyframes light-word {
