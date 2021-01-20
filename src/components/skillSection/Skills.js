@@ -26,7 +26,7 @@ const Skills = ({ skillName, level }) => {
 
   return (
     <div className="small-card">
-      <img src={pngSrc} alt={alt} />
+      <img src={pngSrc} alt={alt} className="skill-img" />
       <p>{skillName}</p>
     </div>
   );

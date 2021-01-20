@@ -6,4 +6,16 @@ h4 {
 
 .skill-card {
   background-color: #252525;
+  margin-top: 0;
+  padding: 10px 5px 5px;
+}
+
+#skill-section .small-card {
+  height: 125px;
+  padding: 5px 1px 1px;
+  margin: 6px;
+}
+
+.skill-img {
+  width: 60%;
 }
