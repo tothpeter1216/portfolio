@@ -24,6 +24,7 @@
   animation-name: light-word;
   animation-delay: 1s;
   animation-fill-mode: forwards;
+  text-shadow: 0 0 50px #b4f0a7;
 }
 
 .plan {
@@ -31,6 +32,8 @@
   animation-name: light-word;
   animation-delay: 4.5s;
   animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  text-shadow: 0 0 50px #ffffbf;
 }
 
 .create {
@@ -38,6 +41,7 @@
   animation-name: light-word;
   animation-delay: 8s;
   animation-fill-mode: forwards;
+  text-shadow: 0 0 50px #a9d1f7;
 }
 
 @keyframes light-word {

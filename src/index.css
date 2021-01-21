@@ -21,14 +21,12 @@ h1 {
 }
 
 body {
-  /* background-color: #0f0808; */
   background-color: #0f0f0f;
 }
 
 .card-content {
   height: 410px;
   width: 260px;
-  background-color: white;
   margin-top: 190px;
   margin: 190px auto 0;
 }
@@ -44,19 +42,8 @@ body {
   border-radius: 4px;
 }
 
-.port-card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 10px;
-  text-align: center;
-  background-color: rgb(255, 255, 255);
-  margin: 10px;
-  border-radius: 10px;
-  width: 80%;
-  display: block;
-}
-
 .section {
-  margin-top: 150px;
+  margin-top: 40px;
 }
 
 .small-card {
