@@ -3,17 +3,25 @@
 }
 
 #education-section .slider .btn-slider {
-  background-color: #b4f0a7d3;
+  background-color: #b4f0a71e;
+  height: 30%;
+  border-radius: 10px;
+}
+
+#education-section .slider .btn-slider img {
+  border-radius: 30%;
 }
 
 #education-section .slider {
+  align-items: center;
   height: fit-content;
   min-height: 300px;
   background-color: #252525;
+  border-radius: 4px;
 }
 
 .school-name {
-  font-size: 2.2rem;
+  font-size: 2.6rem;
   color: #ffffbf;
 }
 
@@ -25,7 +33,7 @@
 .school-content {
   width: 80%;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 a {
