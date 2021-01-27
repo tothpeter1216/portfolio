@@ -3,20 +3,6 @@
   color: #ffffbf;
 }
 
-#code-section .slider {
-  height: fit-content;
-  background-color: #252525;
-  padding: 0 10px;
-}
-
-#code-section .slider .btn-slider {
-  background-color: #ffffbf;
-}
-
-.code-slider {
-  background-color: #252525;
-}
-
 .github-link {
   color: #a9d1f7;
 }
