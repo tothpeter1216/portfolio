@@ -1,0 +1,34 @@
+.navbar {
+  margin: -6px 5%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.nav-btn {
+  background-color: #0f0f0f;
+  box-shadow: 0px 7px 5px #b4f0a7;
+  border: none;
+  border-radius: 0px 0px 15px 3px;
+  height: 30px;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.nav-btn:focus {
+  outline: 0;
+}
+
+.nav-btn:hover {
+  box-shadow: 0px 7px 5px #ffffbf;
+}
+
+.nav-btn a {
+  color: #b4f0a7;
+  text-decoration: none;
+}
+
+.nav-btn a:hover {
+  color: #ffffbf;
+}
