@@ -6,7 +6,6 @@
   display: flex;
   position: relative;
   overflow: hidden;
-
   align-items: center;
   height: fit-content;
   min-height: 300px;
@@ -31,15 +30,17 @@
   position: absolute;
   transform: translate(-50%);
   width: 10%;
-
   border: none;
-
   background-color: #cdf8c31e;
   height: 30%;
   border-radius: 10px;
-
   border: 1px solid black;
   box-shadow: 0 0 3px #ffffbf inset;
+}
+
+.btn-slider:focus {
+  outline: 0;
+  box-shadow: 0 0 3px #ffffbf;
 }
 
 #goLeft {

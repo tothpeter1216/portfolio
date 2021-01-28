@@ -14,7 +14,7 @@ const HeaderAnimation = () => {
       <img src={"./image/bg2.png"} alt="house" className="bg-house bg2" />
       <img src={"./image/bg3.png"} alt="house" className="bg-house bg3" />
       <img src={"./image/bg4.png"} alt="house" className="bg-house bg4" />
-      <img src={"./image/me.png"} alt="" className="me" />
+      <img src={"./image/me_sh.png"} alt="" className="me" />
     </div>
   );
 };
