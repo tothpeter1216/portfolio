@@ -7,7 +7,7 @@ const Infos = () => {
       <div className="card contact">
         <div className="intro">
           <img
-            src={"./image/green_d.png"}
+            src={"./image/green_ds.png"}
             alt="profile"
             className="profile-image"
           />
