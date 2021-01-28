@@ -4,7 +4,7 @@ import "./HobbySection.css";
 const HobbySection = ({ hobbies }) => {
   return (
     <div id="hobby-section" className="section">
-      <h1>Hobbies</h1>
+      <h1 className="title">Hobbies</h1>
       <div className="card hobby-card">
         {hobbies.map((hobby) => {
           return (
