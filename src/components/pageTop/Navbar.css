@@ -1,5 +1,9 @@
 .navbar {
   margin: -6px 5%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 
 .nav-btn {
