@@ -7,7 +7,12 @@ const Education = ({ school }) => {
       <p className="school-description">{school.description}</p>
       <p>
         {school.link && (
-          <a href={school.link} className="school-link">
+          <a
+            href={school.link}
+            className="school-link"
+            target="_blank"
+            rel="noreferrer"
+          >
             {school.link}
           </a>
         )}

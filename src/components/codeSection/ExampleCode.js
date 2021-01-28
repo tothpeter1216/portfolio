@@ -21,11 +21,25 @@ const ExampleCode = ({ code }) => {
       </p>
       <p>
         {website && (
-          <a href={website}>{websiteLinkText ? websiteLinkText : "link"}</a>
+          <a href={website} target="_blank" rel="noreferrer">
+            {websiteLinkText ? websiteLinkText : "link"}{" "}
+          </a>
         )}
       </p>
-      <p>{gitHub && <a href={gitHub}>Codes on gitHub</a>}</p>
-      <p>{gitHub2 && <a href={gitHub2}>Codes on gitHub 2</a>}</p>
+      <p>
+        {gitHub && (
+          <a href={gitHub} target="_blank" rel="noreferrer">
+            Codes on gitHub
+          </a>
+        )}
+      </p>
+      <p>
+        {gitHub2 && (
+          <a href={gitHub2} target="_blank" rel="noreferrer">
+            Codes on gitHub 2
+          </a>
+        )}
+      </p>
     </div>
   );
 };

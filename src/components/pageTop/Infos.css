@@ -68,3 +68,7 @@
 td {
   padding: 10px;
 }
+
+.infos a {
+  text-decoration: none;
+}

@@ -20,7 +20,7 @@ const Infos = () => {
           <table>
             <tbody>
               <tr>
-                <td>Email:</td>
+                <td>E-mail:</td>
                 <td>tothpeter1216@gmail.com</td>
               </tr>
               <tr>
@@ -29,11 +29,23 @@ const Infos = () => {
               </tr>
               <tr>
                 <td>Address:</td>
-                <td>1191 Budapest, Kazinczy 10. 9/27</td>
+                <td>1191 Budapest, Kazinczy street 10 9/27</td>
               </tr>
               <tr>
                 <td>Phone:</td>
                 <td>+36303771901</td>
+              </tr>
+              <tr>
+                <td>LinkedIn:</td>
+                <td>
+                  <a
+                    href="https://www.linkedin.com/in/tothpeter1216/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    tothpeter1216
+                  </a>
+                </td>
               </tr>
             </tbody>
           </table>
