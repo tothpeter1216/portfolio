@@ -8,6 +8,7 @@ import SkillSection from "./components/skillSection/SkillSection";
 import CodeSection from "./components/codeSection/CodeSection";
 import HobbySection from "./components/hobbySection/HobbySection";
 import Footer from "./components/footer/Footer";
+import Navbar from "./components/pageTop/Navbar";
 
 function App() {
   const [skillFields, setSkillFields] = useState([]);
@@ -31,6 +32,7 @@ function App() {
       <HeaderAnimation />
       <Sentence />
       <Infos />
+      <Navbar />
       <SkillSection skillFields={skillFields} />
       <EducationSection schools={schools} />
       <CodeSection codes={codes} />
