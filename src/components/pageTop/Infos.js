@@ -47,6 +47,14 @@ const Infos = () => {
                   </a>
                 </td>
               </tr>
+              <tr>
+                <td>My CV:</td>
+                <td>
+                  <a href="./CV/Peter_Toth_2021.pdf" download>
+                    Download CV
+                  </a>
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>
