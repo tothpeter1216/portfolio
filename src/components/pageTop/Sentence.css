@@ -20,28 +20,28 @@
 }
 
 .dream {
-  color: #b4f0a7;
+  color: #4f8a8b;
   animation-name: light-word;
   animation-delay: 1s;
   animation-fill-mode: forwards;
-  text-shadow: 0 0 50px #b4f0a7;
+  text-shadow: 0 0 50px #4f8a8b;
 }
 
 .plan {
-  color: #ffffbf;
+  color: #f4f6ff;
   animation-name: light-word;
   animation-delay: 4.5s;
   animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  text-shadow: 0 0 50px #ffffbf;
+  text-shadow: 0 0 50px #f4f6ff;
 }
 
 .create {
-  color: #a9d1f7;
+  color: #fbd46d;
   animation-name: light-word;
   animation-delay: 8s;
   animation-fill-mode: forwards;
-  text-shadow: 0 0 50px #a9d1f7;
+  text-shadow: 0 0 50px #fbd46d;
 }
 
 @keyframes light-word {

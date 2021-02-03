@@ -7,7 +7,7 @@ const Infos = () => {
       <div className="card contact">
         <div className="intro">
           <img
-            src={"./image/green_ds.png"}
+            src={"./image/colored_bg2.png"}
             alt="profile"
             className="profile-image"
           />
@@ -29,11 +29,7 @@ const Infos = () => {
               </tr>
               <tr>
                 <td>Address:</td>
-                <td>1191 Budapest, Kazinczy street 10 9/27</td>
-              </tr>
-              <tr>
-                <td>Phone:</td>
-                <td>+36303771901</td>
+                <td>1191 Budapest</td>
               </tr>
               <tr>
                 <td>LinkedIn:</td>

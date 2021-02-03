@@ -1,19 +1,29 @@
+#skill-section {
+  margin-top: 100px;
+}
+
+.skill-fields {
+  box-shadow: 0px 0px 5px #fbd46d;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 h4 {
-  color: #a9d1f7;
+  color: #4f8a8b;
   width: 100%;
   font-size: 2rem;
+  margin: 20px;
 }
 
 .skill-card {
-  background-color: #252525;
-  margin-top: 0;
-  padding: 10px 5px 5px;
+  margin: 5px 0;
+  padding: 0;
 }
 
 #skill-section .small-card {
   height: 130px;
   padding: 5px 1px 1px;
-  margin: 6px;
+  margin: 3px;
 }
 
 .skill-img {

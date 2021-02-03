@@ -9,8 +9,8 @@
   align-items: center;
   height: fit-content;
   min-height: 300px;
-  background-color: #252525;
   border-radius: 4px;
+  box-shadow: 0px 0px 5px #fbd46d;
 }
 
 .slide {
@@ -30,17 +30,17 @@
   position: absolute;
   transform: translate(-50%);
   width: 10%;
-  border: none;
-  background-color: #cdf8c31e;
+  /* border: none; */
   height: 30%;
   border-radius: 10px;
-  border: 1px solid black;
-  box-shadow: 0 0 3px #ffffbf inset;
+  border: 2px solid #04020e;
+  box-shadow: 0 0 3px #000000 inset;
+  background-color: #4f8a8b36;
 }
 
 .btn-slider:focus {
   outline: 0;
-  box-shadow: 0 0 3px #ffffbf;
+  /* box-shadow: 0 0 3px #f4f6ff; */
 }
 
 #goLeft {

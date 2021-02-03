@@ -1,14 +1,19 @@
 #code-section {
   margin: 100px 5% 0 5%;
-  color: #ffffbf;
+  color: #fbd46d;
 }
 
 .code-name {
   font-size: 2.3rem;
+  color: #f4f6ff;
 }
 
-.github-link {
-  color: #a9d1f7;
+#code-section a {
+  color: #4f8a8b;
+}
+
+#code-section a:hover {
+  color: #f4f6ff;
 }
 
 .code-description {
@@ -22,6 +27,6 @@
 }
 
 .technologies {
-  color: #e2e2e2;
+  color: #f4f6ff;
   padding: 10px 0;
 }
