@@ -4,12 +4,12 @@
 
 .school-name {
   font-size: 2.3rem;
-  color: #ffffbf;
+  color: #f4f6ff;
 }
 
 .school-description {
   margin: 30px 0;
-  color: #b4f0a7;
+  color: #fbd46d;
   padding: 10px;
 }
 .school-content {
@@ -18,10 +18,14 @@
   padding: 10px;
 }
 
-a {
-  color: #a9d1f7;
+#education-section a {
+  color: #4f8a8b;
+}
+
+#education-section a:hover {
+  color: #f4f6ff;
 }
 
 .code-name {
-  color: #b4f0a7;
+  color: #fbd46d;
 }

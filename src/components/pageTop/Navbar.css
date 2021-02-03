@@ -7,8 +7,8 @@
 }
 
 .nav-btn {
-  background-color: #0f0f0f;
-  box-shadow: 0px 7px 5px #b4f0a7;
+  background-color: #04020e;
+  box-shadow: 0px 7px 5px #fbd46d;
   border: none;
   border-radius: 0px 0px 15px 3px;
   height: 30px;
@@ -21,14 +21,14 @@
 }
 
 .nav-btn:hover {
-  box-shadow: 0px 7px 5px #ffffbf;
+  box-shadow: 0px 7px 5px #b4f0a7;
 }
 
 .nav-btn a {
-  color: #b4f0a7;
+  color: #fbd46d;
   text-decoration: none;
 }
 
 .nav-btn a:hover {
-  color: #ffffbf;
+  color: #b4f0a7;
 }
